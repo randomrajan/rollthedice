@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-void main(){
+void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
@@ -19,6 +19,12 @@ void main(){
 class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
+    return Row(
+      children: [
+        Image(
+          image: AssetImage('images/dice1.png'),
+        ),
+      ],
+    );
   }
 }
